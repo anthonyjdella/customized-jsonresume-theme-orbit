@@ -1,3 +1,9 @@
+# Customized JSON Resume Theme: Orbit
+🖼️ This is a slightly tweaked version of the [Orbit theme](hhttps://github.com/XuluWarrior/jsonresume-theme-orbit). Tweaked to fit my design preferences. Published on NPM and GitHub Registry.
+
+<details>
+  <summary>Click to expand README.md of the source repository!</summary>
+
 # JSON Resume Orbit Theme 
 [![This project is using Percy.io for visual regression testing.](https://percy.io/static/images/percy-badge.svg)](https://percy.io/XuluWarrior/jsonresume-theme-orbit)
 
