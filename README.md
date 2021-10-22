@@ -1,6 +1,16 @@
 # Customized JSON Resume Theme: Orbit
 🖼️ This is a slightly tweaked version of the [Orbit theme](hhttps://github.com/XuluWarrior/jsonresume-theme-orbit). Tweaked to fit my design preferences. Published on NPM and GitHub Registry.
 
+## Usage
+* `npm run start` to start local server.
+* `npm run build` to build into public dir.
+
+## Content
+* `resume.hbs` template for resume.
+* `partials/` content which is injected into template (resume.hbs).
+* `index.js` helper functions & render function which renders the resuem.
+* `public/index.html` generated HTML after running `npm run build`.
+
 <details>
   <summary>Click to expand README.md of the source repository!</summary>
 

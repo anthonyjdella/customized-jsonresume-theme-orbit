@@ -45,6 +45,15 @@ Handlebars.registerHelper('year', function(str) {
 	}
 });
 
+Handlebars.registerHelper('yearPresent', function(str) {
+	if (str != 'present') {
+		var d = new Date(str);
+		return d.getFullYear();
+	} else {
+		return "Present"
+	}
+});
+
 Handlebars.registerHelper('award', function(str) {
 	switch (str.toLowerCase()) {
 		case "bachelor":

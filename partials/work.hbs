@@ -7,12 +7,16 @@
                 <div class="meta">
                     <div class="upper-row">
                         <h3 class="job-title">{{position}}</h3>
-                        <div class="time">{{year startDate}} - {{year endDate}}</div>
+                        <div class="time">{{year startDate}} - {{yearPresent endDate}}</div>
                     </div><!--//upper-row-->
                     <div class="company">{{#if url}}<a href="{{url}}" target="_blank">{{/if}}{{name}}{{#if location}}, {{location}}{{/if}}{{#if url}}</a>{{/if}}</div>
                 </div><!--//meta-->
                 <div class="details">
-                    {{#markdown}}{{summary}}{{/markdown}}
+                    <ul>
+                    {{#each highlights}}
+                    <li>{{this}}</li>
+                    {{/each}}
+                    </ul>
                 </div><!--//details-->
             </div><!--//item-->
         {{/resume.work}}
